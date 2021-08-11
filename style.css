@@ -1,0 +1,136 @@
+@import url('http://fonts.cdnfonts.com/css/poppins');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    /*background: linear-gradient(135deg, #4a64f4, #4096ca);*/
+    background-color: #4a4af4;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 0;
+    height: 100px;
+    /*background-color: white;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+.container {
+    width: 600px;
+    min-height: auto;
+    display: flex;
+    justify-content:  flex-start/*space-around*/;
+    flex-direction: column;
+    margin: 0 0 40px 0;
+}
+
+.add, .view {
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add {
+    width: 600px;
+    min-height: 150px;
+    background-color: white;
+
+    /*margin: 0 0 40px;*/
+}
+
+.view {
+    width: 600px;
+    min-height: auto;
+    background-color: white;
+    margin: 40px 0 0;
+}
+
+#tarefas {
+    margin: 20px 0;
+}
+
+#nomeTarefa {
+    cursor: pointer;
+}
+
+.tarefaNova {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 20px;
+}
+
+p {
+    width: 330px;
+    word-wrap: break-word;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+
+    margin: /*20px*/ 0 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+input, button {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input {
+    width: 300px;
+    border-radius: 30px;
+    border: solid 2px #d1d3d4;
+    padding: 0 15px;
+    color: #1a1a1a;
+}
+
+input:focus{
+    outline: none;
+    border-color: #4a64f4;
+    transition: 10ms ease-in-out;
+}
+
+button {
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: #4a64f4;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #4a4af4;
+}
+
+.feito {
+    text-decoration: line-through;
+    cursor: pointer;
+}
