@@ -1,2 +1,4 @@
 # toDoList
-Site para registrar notas / tarefa // HTML/CSS/JavaScript
+Site para registrar notas / tarefas
+
+https://maxinocencio.github.io/toDoList/
